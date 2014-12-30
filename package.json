@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/LDSorg/passthru-server-example",
   "dependencies": {
-    "passthru": "git://github.com/LDSorg/passthru.git"
+    "bluebird": "^2.5.2",
+    "node-uuid": "^1.4.2",
+    "passthru": "git://github.com/LDSorg/passthru.git",
+    "request": "2.44.0"
   }
 }
