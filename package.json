@@ -1,0 +1,25 @@
+{
+  "name": "passthru-server-example",
+  "version": "0.1.0",
+  "description": "An example passthru service",
+  "main": "bin/serve.js",
+  "scripts": {
+    "test": "node bin/serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LDSorg/passthru-server-example.git"
+  },
+  "keywords": [
+    "passthru"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com/)",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/LDSorg/passthru-server-example/issues"
+  },
+  "homepage": "https://github.com/LDSorg/passthru-server-example",
+  "dependencies": {
+    "passthru": "git://github.com/LDSorg/passthru.git"
+  }
+}
