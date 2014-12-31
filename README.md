@@ -104,7 +104,7 @@ rsync -avhHPz ./certs/ca/*.crt.pem local.ldsconnect.org:~/passthru-server/certs/
 
 sudo ufw allow 8043/tcp
 
-node bin/server-runner.js 8043
+node bin/serve.js 8043
 ```
 
 ```bash
