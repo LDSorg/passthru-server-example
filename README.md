@@ -87,6 +87,7 @@ module.exports = {
 ```bash
 # Initializer
 
+git submodule init
 git submodule update
 bash ssl-cert-gen/make-root-ca-and-certificates.sh local.ldsconnect.org
 
@@ -96,7 +97,7 @@ rsync -avhHPz ./certs/ca/*.crt.pem client.example.com:~/passthru-client/certs/ca
 
 # put server keys on server
 rsync -avhHPz ./certs/server/ local.ldsconnect.org:~/passthru-server/certs/server/ 
-rsync -avhHPz ./certs/ca/*.crt.pem local.ldsconnect.org:~/passthru-server/certs/ca/ 
+rsync -avhHPz ./certs/ca/*.crt.pem local.ldsconnect.org:~/passthru-server/certs/ca/
 ```
 
 ```bash
@@ -105,6 +106,9 @@ rsync -avhHPz ./certs/ca/*.crt.pem local.ldsconnect.org:~/passthru-server/certs/
 sudo ufw allow 8043/tcp
 
 node bin/serve.js 8043
+
+# rsync -a passthru.conf /etc/init
+# sudo service passthru start
 ```
 
 ```bash
