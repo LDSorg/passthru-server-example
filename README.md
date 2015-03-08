@@ -7,7 +7,7 @@ Prerequisites (with ScreenCasts)
 -----------
 
 * [Creating your VPS (ScreenCast)](http://youtu.be/ypjzi1axH2A)
-* [Securing Access to VPS (ScreenCast)](http://youtu.be/YZzhIIJmlE0) • [Securing Access to VPS (Article)](https://gist.github.com/coolaj86/8edaa9f5cb913cf442f1))
+* [Securing Access to VPS (ScreenCast)](http://youtu.be/YZzhIIJmlE0) • [Securing Access to VPS (Article)](https://coolaj86.com/articles/securing-your-vps-for-the-semi-paranoid.html))
 
 ScreenCast
 ----------
