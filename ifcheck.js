@@ -25,7 +25,7 @@ module.exports.getExternalIp = getExternalIp;
 
 if (module === require.main) {
   getExternalIp().then(function (ip) {
-    console.log(ip || '127.0.01');
+    console.log(ip || '127.0.0.1');
   });
 }
 
