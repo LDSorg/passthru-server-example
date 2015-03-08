@@ -36,7 +36,7 @@ First you're going to create a *secret* **on the initializer**.
 ```bash
 # Initializer
 
-git clone https://github.com/LDSorg/passthru-initialzer-example.git passthru-initializer
+git clone https://github.com/LDSorg/passthru-initializer-example.git passthru-initializer
 pushd passthru-initializer/
 npm install
 
