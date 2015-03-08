@@ -43,14 +43,16 @@ npm install
 node bin/gen-secret.js
 > 35acc236-50ea-42c2-b47b-3682419b9b86
 
+vim config.js # store the secret
+
 node bin/gen-shadow.js 35acc236-50ea-42c2-b47b-3682419b9b86
 > GnSh3sEolPnhh0qkLxFMyBaFY5M1fGyGgk5KDpVOsHESdHK5SOOd2G3xf9SymsAS
 ```
 
 Now you're going to save the shadow on the server
-(never put the local secret on the server!!!)
+(never put the initializer's secret on the server!!!)
 and create a secret for the server
-(never put the server secret on the local!!!).
+(never put the server secret on the initializer!!!).
 
 ```bash
 # Server
