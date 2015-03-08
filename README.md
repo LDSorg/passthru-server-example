@@ -57,6 +57,7 @@ and create a secret for the server
 curl -fsSL bit.ly/easy-install-node | bash
 
 git clone https://github.com/LDSorg/passthru-server-example.git passthru-server
+pushd passthru-server/
 npm install
 
 node ./ifcheck.js
