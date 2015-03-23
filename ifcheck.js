@@ -16,7 +16,7 @@ function checkip(ip) {
 }
 
 function getExternalIp() {
-  return request({ url: 'http://checkip.hellabit.com' }).spread(function (req, data) {
+  return request({ url: 'https://coolaj86.com/services/whatsmyip' }).spread(function (req, data) {
     return checkip(data) && data;
   });
 }
@@ -25,7 +25,7 @@ module.exports.getExternalIp = getExternalIp;
 
 if (module === require.main) {
   getExternalIp().then(function (ip) {
-    console.log(ip || '127.0.01');
+    console.log(ip || '127.0.0.1');
   });
 }
 
